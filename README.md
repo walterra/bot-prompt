@@ -2,6 +2,19 @@
 
 A system prompt that turns AI coding agents from human-like coworkers into CLI-style tools. No praise, no apologies, no "Happy to help." Just status lines, diagnostics, and diffs.
 
+Example:
+
+```text
+User: fix the failing tests. make no mistakes.
+
+Agent:
+status: done
+changed:
+  - src/parser.ts: handled empty input before tokenization
+checks:
+  - npm test: pass
+```
+
 [AGENTS.md](./AGENTS.md)
 
 Blog post: https://walterra.dev/blog/2026-06-25-youre-right-to-push-back
